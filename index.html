@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Summit Water</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .masthead {
+            height: 50vh;
+            min-height: 500px;
+            background-image: url(Assets/Img/text_bkgd.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .btn-primary:hover {
+            color:white;
+            background-color: blue;
+            border-color: blue;
+        }
+        .navbar-nav > li {
+            padding-left: 75px;
+            padding-right: 75px;
+        }
+        
+        body {
+          overflow-x: hidden;
+        }
+            
+        
+    </style>
+</head>
+<body style="padding-left:1px; padding-right:1px" class="bg-light">
+    <nav class="navbar-nav navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+           <a href="index.html" class="navbar-brand">Summit Water & Supply Co</a>
+        </div>
+    </nav>
+
+    
+    <header class="masthead">
+        
+        <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-2 text-start">
+                    <h5 class="text-white d-none d-lg-block">HOURS:</h5>
+                    <h6 class="text-white d-none d-lg-block">Monday - Friday</h6>
+                    <h6 class="text-white d-none d-lg-block">8:00am to 5:00pm</h6>
+                </div>
+                <div class="col-8 text-center">
+                    <h1 class="text-white">Summit Water</h1>
+                    <h6 class="text-white">9701 50th Ave East Tacoma, WA 98446-5444</h6>
+                </div>
+                <div class="col-2 text-end">
+                    <h6 class="text-white d-none d-lg-block">Phone: (253) 537-7781 Fax: (253) 536-1759</h6>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <br/>
+
+    <!--body-->
+    
+      <!--welcome -->
+      <br/><br/>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 offset0">
+      <div class="card text-center bg-white">
+        <div class="card-body">
+            <h5 class="card-title">Welcome to Summit Water</h5>
+            <p class="card-text">A Non-Profit Member Owned Company</p>  
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+      <br/><br/>
+      <!--Nav Cards-->
+      <!--First Row-->
+      <div class="row row-cols-3">
+        <!--Payment-->
+        <div class="col">
+          <a class="card h-100" data-bs-toggle="offcanvas" href="#offcanvasExample" 
+          role="button" aria-controls="offcanvasExample">
+          <div class="card h-100 text-center card-fixed-height"
+                      data-toggle="collapse" data-target="#paymentDetails">
+            <img src="Assets/Img/payments.jpeg" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Payments</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <!--off screen content-->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Payment Options</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              <ul>
+                <li>
+                    <h6>
+                      <a href="https://www.invoicecloud.com/portal/(S(325rlywuqke4v1o0vfsknt01))/2/Site2.aspx?g=ddeca751-ded0-4b84-90dd-eb524e0f2b45"
+                      target="_blank">Online Payments</a>
+                    </h6>
+                        <p>
+                          Summit Water & Supply Company now offers secure Online Bill Payment.<br/>
+                          Note: Credit Card payments are also accepted through online bill pay link. A convenience fee will be assessed based on the transaction amount.
+                        </p>
+                </li>
+                <li>
+                  <h6>
+                    In Person
+                  </h6>
+                    <p>
+                      This is how we pay in person
+                    </p>
+                </li>  
+                <li>
+                  <h6>After Hours</h6>
+                    <p>This is how to pay after Hours</p>
+                </li>
+                <li>
+                  <h6>Late Payments</h6>
+                    <p>And if you are late</p>
+                </li>
+
+
+
+
+                </ul>   
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Membership-->
+        <div class="col">
+          <a href="Subpage/Membership.html">
+          <div class="card h-100 text-center card-fixed-height">
+            <img src="Assets/Img/membership.jpeg" class="card-img-top" alt="..." style="height: 100%;">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Membership</h5>
+            </div>
+          </div>
+        </a>
+        </div>
+        <!--Updates-->
+        <div class="col">
+          <a href="Subpage/Updates.html">
+          <div class="card h-100 text-center card-fixed-height">
+            <img src="Assets/Img/updates.jpeg" class="card-img-top" alt="..." style="height: 100%;">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Updates</h5>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+        <!--Second Row-->
+        <br/>
+        
+        <div class="row row-cols-3">
+          <!--Conservation-->
+        <div class="col">
+          <a href="Subpage/Conservation.html">
+            <div class="card h-100 text-bg-light text-center card-fixed-height">
+              <img src="Assets/Img/text_bkgd.jpg" class="card-img-top" alt="..." style="height: 100%;">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Conservation</h5>
+              </div>
+            </div>
+          </a>
+          </div>
+          <!--Water Quality-->
+          <div class="col">
+            <a href="Subpage/Quality.html">
+            <div class="card h-100 text-center card-fixed-height">
+              <img src="Assets/Img/Water_Qual.jpeg" class="card-img-top" alt="..." style="height: 100%;">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Water Quality</h5>
+              </div>
+            </div>
+          </a>
+          </div>
+          <!--FAQ-->
+          <div class="col">
+            <a href="FAQ.html">
+            <div class="card h-100 text-center card-fixed-height">
+              <img src="Assets/Img/FAQ.jpeg" class="card-img-top" alt="..." style="height: 100%;">
+              <div class="card-img-overlay">
+                <h5 class="card-title">FAQ</h5>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+
+        <br/><br/>
+      
+  
+    <!--footer-->
+     <footer class="bg-dark text-center text-white">
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          
+
+          
+          <p>9701 50th Ave. East &#x2688 Tacoma, WA 98446-5444 <br/>
+             Phone: (253) 537-7781 &#x2688 Fax: (253)536-1795 <br/>
+             SUMMIT WATER IS A DRUG FREE EMPLOYER &#x2688 EMPLOYEE ESTABLISHMENT</p>
+        </div>
+        
+      </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    
+
+  </body>
+</html>
