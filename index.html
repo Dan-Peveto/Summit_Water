@@ -15,11 +15,6 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
-        .btn-primary:hover {
-            color:white;
-            background-color: blue;
-            border-color: blue;
-        }
         .navbar-nav > li {
             padding-left: 75px;
             padding-right: 75px;
@@ -27,10 +22,15 @@
         
         body {
           overflow-x: hidden;
-          background-color: rgb(220, 220, 220)
+          background-color: rgb(220, 220, 220);
         }
-            
-        
+
+        .custom-link {
+          text-decoration: none;
+        }
+        .custom-card-title {
+          
+        }
     </style>
 </head>
 <body style="padding-left:1px; padding-right:1px">
@@ -87,11 +87,11 @@
         <div class="col">
           <a class="card h-100" data-bs-toggle="offcanvas" href="#offcanvasExample" 
           role="button" aria-controls="offcanvasExample">
-          <div class="card h-100 text-center card-fixed-height"
+          <div class="card h-100"
                       data-toggle="collapse" data-target="#paymentDetails">
             <img src="Assets/Img/payments.jpg" class="card-img-top" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="title">Bill Pay</h5>
+            <div class="card-body bg-dark">
+              <h6 class="title text-white text-center">Bill Pay</h6>
             </div>
           </div>
         </a>
@@ -143,22 +143,22 @@
 
         <!--Membership-->
         <div class="col">
-          <a href="Subpage/Membership.html">
-          <div class="card h-100 text-center card-fixed-height">
+          <a href="Subpage/Membership.html" class="custom-link">
+          <div class="card h-100">
             <img src="Assets/Img/Membership.jpeg" class="card-img-top" alt="..." style="height: 100%;">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Members</h5>
+            <div class="card-body bg-dark">
+              <h6 class="card-title text-white text-center">Members</h6>
             </div>
           </div>
         </a>
         </div>
         <!--Updates-->
         <div class="col">
-          <a href="Subpage/Updates.html">
-          <div class="card h-100 text-center card-fixed-height">
+          <a href="Subpage/Updates.html" class="custom-link">
+          <div class="card h-100">
             <img src="Assets/Img/updates.jpeg" class="card-img-top" alt="..." style="height: 100%;">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Updates</h5>
+            <div class="card-body bg-dark">
+              <h6 class="card-title text-white text-center">Updates</h6>
             </div>
           </div>
         </div>
@@ -170,33 +170,33 @@
         <div class="row row-cols-3">
           <!--Conservation-->
         <div class="col">
-          <a href="Subpage/Conservation.html">
-            <div class="card h-100 text-bg-light text-center card-fixed-height">
+          <a href="Subpage/Conservation.html" class="custom-link">
+            <div class="card h-100">
               <img src="Assets/Img/text_bkgd.jpg" class="card-img-top" alt="..." style="height: 100%;">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Savings</h5>
+              <div class="card-body bg-dark">
+                <h6 class="card-title text-white text-center">Savings</h6>
               </div>
             </div>
           </a>
           </div>
           <!--Water Quality-->
           <div class="col">
-            <a href="Subpage/Quality.html">
-            <div class="card h-100 text-center card-fixed-height">
+            <a href="Subpage/Quality.html" class="custom-link">
+            <div class="card h-100">
               <img src="Assets/Img/Water_Qual.png" class="card-img-top" alt="..." style="height: 100%;">
-              <div class="card-img-overlay">
-                <h5 class="card-title text">Water Quality</h5>
+              <div class="card-body bg-dark">
+                <h6 class="card-title text-white text-center">Water Quality</h6>
               </div>
             </div>
           </a>
           </div>
           <!--FAQ-->
           <div class="col">
-            <a href="FAQ.html">
-            <div class="card h-100 text-center card-fixed-height">
+            <a href="FAQ.html" class="custom-link">
+            <div class="card h-100">
               <img src="Assets/Img/FAQ.jpg" class="card-img-top" alt="..." style="height: 100%;">
-              <div class="card-img-overlay">
-                <h5 class="card-title">FAQ</h5>
+              <div class="card-body bg-dark">
+                <h6 class="card-title text-white text-center">FAQ</h6>
               </div>
             </div>
           </div>
